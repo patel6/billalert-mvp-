@@ -1,0 +1,27 @@
+# --- API Keys & Secrets ---
+.env
+backend/.env
+auth_tokens.txt
+
+# --- Python & Environments ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Databases (If any are added later) ---
+*.db
+*.sqlite3
+
+# --- System & IDEs ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Project Specific ---
+backend/__pycache__/
